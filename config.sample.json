@@ -1,0 +1,5 @@
+{
+  "nanoRpc": "http://127.0.0.1:7076",
+  "testMode": false,
+  "statInterval": 10
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "hot-shots": "^5.4.0",
+    "lodash": "^4.17.10",
+    "nanode": "^2.3.3",
+    "node-fetch": "^2.1.2"
+  }
+}
