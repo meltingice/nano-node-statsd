@@ -15,6 +15,11 @@ client.socket.on("error", function(error) {
   console.error("Error in socket: ", error);
 });
 
+client.gaugeAndLog = (...args) => {
+  console.log(...args);
+  client.gauge(...args);
+};
+
 async function collectStats() {
   for (let i = 0; i < statCollectors.length; i++) {
     await statCollectors[i](client, nano);

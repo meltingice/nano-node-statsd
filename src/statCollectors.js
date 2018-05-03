@@ -1,3 +1,4 @@
 import peers from "./stats/peers";
+import representatives from "./stats/representatives";
 
-module.exports = [peers];
+module.exports = [peers, representatives];
