@@ -1,4 +1,4 @@
-# Nano StatD
+# Nano StatsD
 
 A StatsD/Datadog compatible stat collector for [Nano](https://github.com/nanocurrency/raiblocks) nodes. Collects metrics such as peer count, block count, etc.
 
